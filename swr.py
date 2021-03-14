@@ -26,9 +26,9 @@ real_return_df = pd.read_pickle(REAL_RETURN_FILE)
 Show all historical paths for 30-year retirements 1928-1991 based on specified asset allocation and withdrawal parameters. Drag the sliders to adjust parameters:
 
 - Asset allocation: A fixed stock/bond percentage throughout retirement.
-- Withdrawals: 
-  - Each year, withdraw a fixed percentage (Fixed %) of the starting portfolio plus a percentage of the current portfolio (Variable %), or…
-  - a floor percentage (Floor %) of the starting portfolio, whichever is greater
+- Withdrawals: Each year, withdraw whichever is greater:
+  - A fixed percentage (Fixed %) of the starting portfolio plus a percentage of the current portfolio (Variable %), or…
+  - A floor percentage (Floor %) of the starting portfolio
 
 *Disclaimer: This is not investment advice! For educational purposes only. Past performance may not be representative of future results. Consult a professional for investment and retirement advice.*
 
